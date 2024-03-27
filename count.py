@@ -12,5 +12,4 @@ for i in repo_list:
     response = json.loads(r.content)
     document[i] = response["stargazers_count"]
 
-print(document)
 print (yaml.dump(document, sort_keys=False))
