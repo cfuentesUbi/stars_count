@@ -1,3 +1,5 @@
+# copied from https://blog.stackademic.com/automate-docker-image-building-tagging-and-publishing-with-github-actions-5eeb16b187bd
+
 name: Build And Push Images to Dockerhub
 on:
   push:
